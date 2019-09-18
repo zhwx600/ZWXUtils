@@ -1,6 +1,0 @@
-framework module ZUtils {
-  umbrella header "ZUtils-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -122,7 +122,7 @@ end
 sss.subspec 'NSString' do |s4|
 s4.source_files = 'ZUtils/Classes/Category/Foundation/NSString/**/*'
 s4.public_header_files = 'ZUtils/Classes/Category/Foundation/NSString/**/*.h'
-s4.dependency 'ZUtils/Category/Foundation/NSData'
+s4.dependency 'ZWXUtils/Category/Foundation/NSData'
 end
 sss.subspec 'NSTimer' do |s4|
 s4.source_files = 'ZUtils/Classes/Category/Foundation/NSTimer/**/*'
@@ -256,7 +256,7 @@ s3.source_files = 'ZUtils/Classes/Utils/HttpClient/**/*'
 s3.public_header_files = 'ZUtils/Classes/Utils/HttpClient/**/*.h'
 
 s3.dependency 'AFNetworking'
-s3.dependency 'ZUtils/CustomView'
+s3.dependency 'ZWXUtils/CustomView'
 
 end
 

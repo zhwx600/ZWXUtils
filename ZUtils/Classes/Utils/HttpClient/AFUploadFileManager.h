@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 typedef void(^UploadFileSuccess)(NSURLResponse *response,id responseObject);
 typedef void(^UploadFileFailure)(NSURLResponse *response,NSError *error);

@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8750CBC7233204E300B4AA3D /* ZWXUtils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */; };
 		C4AAE42BA84A0FD7BF92D3DE /* Pods_ZUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA502688CA1445135B2554B /* Pods_ZUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,7 +63,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841E548A8763D1175AAE36D0 /* Pods_ZUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A87AD29BD781CDF1AD714499 /* ZUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZUtils.podspec; path = ../ZUtils.podspec; sourceTree = "<group>"; };
+		8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZWXUtils.podspec; path = ../ZWXUtils.podspec; sourceTree = "<group>"; };
 		B45DA2CEC4ADA63E8C2B18C2 /* Pods-ZUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FDD84130C0076F5B6E8237F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEA502688CA1445135B2554B /* Pods_ZUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,7 +179,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A87AD29BD781CDF1AD714499 /* ZUtils.podspec */,
+				8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */,
 				1AB1BF4774E5F71A05863C85 /* README.md */,
 				FDD84130C0076F5B6E8237F9 /* LICENSE */,
 			);
@@ -208,7 +209,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B423AEA78E99C11D102CF48F /* [CP] Embed Pods Frameworks */,
-				6BCB4501C38B6430632FC0D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +227,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				B59F7C091E3741121846B688 /* [CP] Embed Pods Frameworks */,
-				E22666BBCE8F27F938E45421 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +285,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8750CBC7233204E300B4AA3D /* ZWXUtils.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,21 +318,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6BCB4501C38B6430632FC0D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A3CA46984FA745915BF81C2C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,50 +342,20 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/ZUtils/ZUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/ZWXUtils/ZWXUtils.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZWXUtils.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B59F7C091E3741121846B688 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E22666BBCE8F27F938E45421 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

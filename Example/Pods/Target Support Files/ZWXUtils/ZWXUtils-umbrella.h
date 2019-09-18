@@ -40,6 +40,7 @@
 #import "NSString+ZDictionary.h"
 #import "NSString+ZEncrypt.h"
 #import "NSString+ZHash.h"
+#import "NSString+ZIDCard.h"
 #import "NSString+ZMIME.h"
 #import "NSString+ZNet.h"
 #import "NSString+ZNormalRegex.h"
@@ -129,7 +130,9 @@
 #import "ZLanguage.h"
 #import "ZLocationManager.h"
 #import "ZLog.h"
+#import "AFHttpClient.h"
+#import "AFUploadFileManager.h"
 
-FOUNDATION_EXPORT double ZUtilsVersionNumber;
-FOUNDATION_EXPORT const unsigned char ZUtilsVersionString[];
+FOUNDATION_EXPORT double ZWXUtilsVersionNumber;
+FOUNDATION_EXPORT const unsigned char ZWXUtilsVersionString[];
 

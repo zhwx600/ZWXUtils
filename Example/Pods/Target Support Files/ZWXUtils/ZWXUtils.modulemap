@@ -1,0 +1,6 @@
+framework module ZWXUtils {
+  umbrella header "ZWXUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
