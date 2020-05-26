@@ -11,12 +11,12 @@
 /**
  * 获取日、月、年、小时、分钟、秒
  */
-- (NSUInteger)z_day;
-- (NSUInteger)z_month;
-- (NSUInteger)z_year;
-- (NSUInteger)z_hour;
-- (NSUInteger)z_minute;
-- (NSUInteger)z_second;
+- (NSUInteger)zz_day;
+- (NSUInteger)zz_month;
+- (NSUInteger)zz_year;
+- (NSUInteger)zz_hour;
+- (NSUInteger)zz_minute;
+- (NSUInteger)zz_second;
 + (NSUInteger)z_day:(NSDate *)date;
 + (NSUInteger)z_month:(NSDate *)date;
 + (NSUInteger)z_year:(NSDate *)date;
@@ -121,7 +121,7 @@
  *  [6 - Friday]
  *  [7 - Saturday]
  */
-- (NSInteger)z_weekday;
+- (NSInteger)zz_weekday;
 + (NSInteger)z_weekday:(NSDate *)date;
 
 /**
@@ -152,7 +152,7 @@
  *
  *  @return Return if self is today
  */
-- (BOOL)z_isToday;
+- (BOOL)zz_isToday;
 
 /**
  *  Add days to self
@@ -160,7 +160,7 @@
  *  @param days The number of days to add
  *  @return Return self by adding the gived days number
  */
-- (NSDate *)z_dateByAddingDays:(NSUInteger)days;
+- (NSDate *)zz_dateByAddingDays:(NSUInteger)days;
 
 /**
  *  Get the month as a localized string from the given month number

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ZUtils_ExampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ZUtils_ExampleVersionString[];
+FOUNDATION_EXPORT double Pods_ZWXUtils_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ZWXUtils_TestsVersionString[];
 

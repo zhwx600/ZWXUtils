@@ -1,13 +1,13 @@
 //
-//  UIWebView+ZStyle.m
+//  WKWebView+ZStyle.m
 //  Pods
 //
 //  Created by zwx on 2017/11/23.
 //
 
-#import "UIWebView+ZStyle.h"
+#import "WKWebView+ZStyle.h"
 
-@implementation UIWebView (ZStyle)
+@implementation WKWebView (ZStyle)
 /**
  *  @brief  是否显示阴影
  *

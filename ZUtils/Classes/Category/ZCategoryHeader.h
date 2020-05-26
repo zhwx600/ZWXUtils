@@ -137,7 +137,7 @@
 #import "UIViewController+ZBackButtonTouched.h"
 #import "UIViewController+ZStoreKit.h"
 
-#import "UIWebView+ZStyle.h"
+#import "WKWebView+ZStyle.h"
 #import "UIWindow+ZStackVC.h"
 
 

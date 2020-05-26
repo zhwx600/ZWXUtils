@@ -40,7 +40,7 @@
 ///使用dateStyle timeStyle格式化时间
 - (NSString *)z_stringWithDateStyle:(NSDateFormatterStyle)dateStyle timeStyle:(NSDateFormatterStyle)timeStyle;
 ///给定format格式化时间
-- (NSString *)z_stringWithFormat:(NSString *)format;
+- (NSString *)zz_stringWithFormat:(NSString *)format;
 
 #pragma mark ---- 从当前日期相对日期时间
 ///明天

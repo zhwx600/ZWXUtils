@@ -99,7 +99,7 @@ _Pragma("clang diagnostic pop") \
 }
 
 #pragma mark - String Properties
-- (NSString *) z_stringWithFormat: (NSString *) format
+- (NSString *) zz_stringWithFormat: (NSString *) format
 {
     NSDateFormatter *formatter = [NSDateFormatter new];
     //    formatter.locale = [NSLocale currentLocale]; // Necessary?

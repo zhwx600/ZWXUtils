@@ -135,8 +135,12 @@ NSInteger  const gHttpTimeoutInterval = 20;
             NSLog(@"\n*************************XXXX URL*************************\n%@\nParam:\n%@",request.URL,param);
         }
         
-        __block NSURLSessionDataTask *task = [self dataTaskWithRequest:request completionHandler:^(NSURLResponse * __unused response, id responseObject, NSError *error) {
+        __block NSURLSessionDataTask *task = [self dataTaskWithRequest:request uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
             
+        } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
+            
+        } completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+                    
             if (processView) {
                 dispatch_async(dispatch_get_main_queue(), ^{
                     [processHUD hideAnimated:YES];

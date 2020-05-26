@@ -436,9 +436,9 @@ const CGFloat  kItemMinColoumnSpace = 15.0;  //最小的列间距值 （左右�
     [UIView animateWithDuration:kAnimateWithDuration animations:^ {
         [self addMaskView];
         //            _panelView.transform = CGAffineTransformIdentity;
-        CGRect nFrame = _panelView.frame;
+        CGRect nFrame = self->_panelView.frame;
         nFrame.origin.y = SCREEN_MAX_HEIGHT - nFrame.size.height;
-        _panelView.frame = nFrame;
+        self->_panelView.frame = nFrame;
         
     }];
     
@@ -449,9 +449,9 @@ const CGFloat  kItemMinColoumnSpace = 15.0;  //最小的列间距值 （左右�
     if (_isShowing) {
         [UIView animateWithDuration:kAnimateWithDuration animations:^ {
             //            _panelView.transform = CGAffineTransformMakeScale(1.0, 0.2);
-            CGRect nFrame = _panelView.frame;
+            CGRect nFrame = self->_panelView.frame;
             nFrame.origin.y = SCREEN_MAX_HEIGHT;
-            _panelView.frame = nFrame;
+            self->_panelView.frame = nFrame;
         } completion:^ (BOOL finished){
             if (remove) {
                 [self removeFromSuperview];

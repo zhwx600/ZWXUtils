@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1858DC8DFFAEDCC44D9CEA97 /* Pods_ZUtils_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841E548A8763D1175AAE36D0 /* Pods_ZUtils_Example.framework */; };
+		17BE2457C8A4B23F64BC2121 /* Pods_ZWXUtils_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF10E5B433FEE6F5283A0D7 /* Pods_ZWXUtils_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,7 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8750CBC7233204E300B4AA3D /* ZWXUtils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */; };
-		C4AAE42BA84A0FD7BF92D3DE /* Pods_ZUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA502688CA1445135B2554B /* Pods_ZUtils_Tests.framework */; };
+		A5EF6ED6CDCF17005CB1F5B6 /* Pods_ZWXUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DDB2A5455B0AD4CE1A0609 /* Pods_ZWXUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,32 +41,36 @@
 		16B0D4B69AB37174F0B82D07 /* Pods-ZUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1AB1BF4774E5F71A05863C85 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2C898E154EF714D8C68BD342 /* Pods-ZUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* ZUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* ZWXUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWXUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* ZUtils-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZUtils-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* ZWXUtils-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZWXUtils-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* ZUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZUtils-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* ZWXUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZWXUtils-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* ZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* ZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* ZUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* ZWXUtils_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWXUtils_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		841E548A8763D1175AAE36D0 /* Pods_ZUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F2E08F46CF718413C846BF /* Pods-ZWXUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Example/Pods-ZWXUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80DDB2A5455B0AD4CE1A0609 /* Pods_ZWXUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWXUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZWXUtils.podspec; path = ../ZWXUtils.podspec; sourceTree = "<group>"; };
+		8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZWXUtils.podspec; path = ../ZWXUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ABBD9C9B4E6897C9ECA6B94 /* Pods-ZWXUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Tests/Pods-ZWXUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A083BC8EC346747F71E4B88B /* Pods-ZWXUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Tests/Pods-ZWXUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B45DA2CEC4ADA63E8C2B18C2 /* Pods-ZUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BEF10E5B433FEE6F5283A0D7 /* Pods_ZWXUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWXUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4F95C96D6719DD365B71D8 /* Pods-ZWXUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Example/Pods-ZWXUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FDD84130C0076F5B6E8237F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FEA502688CA1445135B2554B /* Pods_ZUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFE04553CCE82C121340D10 /* Pods-ZUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +82,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1858DC8DFFAEDCC44D9CEA97 /* Pods_ZUtils_Example.framework in Frameworks */,
+				17BE2457C8A4B23F64BC2121 /* Pods_ZWXUtils_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +93,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C4AAE42BA84A0FD7BF92D3DE /* Pods_ZUtils_Tests.framework in Frameworks */,
+				A5EF6ED6CDCF17005CB1F5B6 /* Pods_ZWXUtils_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +115,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* ZUtils_Example.app */,
-				6003F5AE195388D20070C39A /* ZUtils_Tests.xctest */,
+				6003F58A195388D20070C39A /* ZWXUtils_Example.app */,
+				6003F5AE195388D20070C39A /* ZWXUtils_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,8 +128,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				841E548A8763D1175AAE36D0 /* Pods_ZUtils_Example.framework */,
-				FEA502688CA1445135B2554B /* Pods_ZUtils_Tests.framework */,
+				BEF10E5B433FEE6F5283A0D7 /* Pods_ZWXUtils_Example.framework */,
+				80DDB2A5455B0AD4CE1A0609 /* Pods_ZWXUtils_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,10 +153,10 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* ZUtils-Info.plist */,
+				6003F595195388D20070C39A /* ZWXUtils-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* ZUtils-Prefix.pch */,
+				6003F59B195388D20070C39A /* ZWXUtils-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +197,10 @@
 				16B0D4B69AB37174F0B82D07 /* Pods-ZUtils_Example.release.xcconfig */,
 				FFFE04553CCE82C121340D10 /* Pods-ZUtils_Tests.debug.xcconfig */,
 				B45DA2CEC4ADA63E8C2B18C2 /* Pods-ZUtils_Tests.release.xcconfig */,
+				72F2E08F46CF718413C846BF /* Pods-ZWXUtils_Example.debug.xcconfig */,
+				EA4F95C96D6719DD365B71D8 /* Pods-ZWXUtils_Example.release.xcconfig */,
+				9ABBD9C9B4E6897C9ECA6B94 /* Pods-ZWXUtils_Tests.debug.xcconfig */,
+				A083BC8EC346747F71E4B88B /* Pods-ZWXUtils_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,9 +208,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* ZUtils_Example */ = {
+		6003F589195388D20070C39A /* ZWXUtils_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZUtils_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZWXUtils_Example" */;
 			buildPhases = (
 				4753831DED4C040D90945819 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -214,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = ZUtils_Example;
+			name = ZWXUtils_Example;
 			productName = ZUtils;
-			productReference = 6003F58A195388D20070C39A /* ZUtils_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* ZWXUtils_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* ZUtils_Tests */ = {
+		6003F5AD195388D20070C39A /* ZWXUtils_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZUtils_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZWXUtils_Tests" */;
 			buildPhases = (
 				A3CA46984FA745915BF81C2C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -233,9 +241,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = ZUtils_Tests;
+			name = ZWXUtils_Tests;
 			productName = ZUtilsTests;
-			productReference = 6003F5AE195388D20070C39A /* ZUtils_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* ZWXUtils_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ZUtils" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "ZWXUtils" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,8 +278,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* ZUtils_Example */,
-				6003F5AD195388D20070C39A /* ZUtils_Tests */,
+				6003F589195388D20070C39A /* ZWXUtils_Example */,
+				6003F5AD195388D20070C39A /* ZWXUtils_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +319,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZUtils_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ZWXUtils_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -329,7 +337,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZUtils_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ZWXUtils_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -342,7 +350,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ZWXUtils_Example/Pods-ZWXUtils_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ZWXUtils/ZWXUtils.framework",
@@ -355,7 +363,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZUtils_Example/Pods-ZUtils_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZWXUtils_Example/Pods-ZWXUtils_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -384,7 +392,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* ZUtils_Example */;
+			target = 6003F589195388D20070C39A /* ZWXUtils_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -520,14 +528,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C898E154EF714D8C68BD342 /* Pods-ZUtils_Example.debug.xcconfig */;
+			baseConfigurationReference = 72F2E08F46CF718413C846BF /* Pods-ZWXUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PQ4U5WYJKL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZUtils/ZUtils-Prefix.pch";
+				GCC_PREFIX_HEADER = "ZUtils/ZWXUtils-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ZUtils/Classes\"/**";
-				INFOPLIST_FILE = "ZUtils/ZUtils-Info.plist";
+				INFOPLIST_FILE = "ZUtils/ZWXUtils-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,14 +545,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B0D4B69AB37174F0B82D07 /* Pods-ZUtils_Example.release.xcconfig */;
+			baseConfigurationReference = EA4F95C96D6719DD365B71D8 /* Pods-ZWXUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PQ4U5WYJKL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ZUtils/ZUtils-Prefix.pch";
+				GCC_PREFIX_HEADER = "ZUtils/ZWXUtils-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../ZUtils/Classes\"/**";
-				INFOPLIST_FILE = "ZUtils/ZUtils-Info.plist";
+				INFOPLIST_FILE = "ZUtils/ZWXUtils-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,7 +562,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFFE04553CCE82C121340D10 /* Pods-ZUtils_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9ABBD9C9B4E6897C9ECA6B94 /* Pods-ZWXUtils_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -571,14 +579,14 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZUtils_Example.app/ZUtils_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWXUtils_Example.app/ZWXUtils_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B45DA2CEC4ADA63E8C2B18C2 /* Pods-ZUtils_Tests.release.xcconfig */;
+			baseConfigurationReference = A083BC8EC346747F71E4B88B /* Pods-ZWXUtils_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -591,7 +599,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZUtils_Example.app/ZUtils_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWXUtils_Example.app/ZWXUtils_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -599,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "ZUtils" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "ZWXUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -608,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZUtils_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ZWXUtils_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -617,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZUtils_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ZWXUtils_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

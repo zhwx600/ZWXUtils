@@ -1,6 +1,6 @@
 {
   "name": "ZWXUtils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "summary": "一个工具类 ZWXUtils.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhwx600/ZWXUtils",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhwx600/ZWXUtils.git",
-    "tag": "1.1.0"
+    "tag": "1.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -222,9 +222,9 @@
               "public_header_files": "ZUtils/Classes/Category/UIKit/UIViewController/**/*.h"
             },
             {
-              "name": "UIWebView",
-              "source_files": "ZUtils/Classes/Category/UIKit/UIWebView/**/*",
-              "public_header_files": "ZUtils/Classes/Category/UIKit/UIWebView/**/*.h"
+              "name": "WKWebView",
+              "source_files": "ZUtils/Classes/Category/UIKit/WKWebView/**/*",
+              "public_header_files": "ZUtils/Classes/Category/UIKit/WKWebView/**/*.h"
             },
             {
               "name": "UIWindow",

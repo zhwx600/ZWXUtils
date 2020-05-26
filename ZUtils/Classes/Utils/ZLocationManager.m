@@ -45,15 +45,16 @@
 
 
 #pragma mark- CLLocationManagerDelegate
--(void) locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+
+-(void) locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
 {
-    self.o_newLocation = newLocation;
+    self.o_newLocation = [locations firstObject];
     
     __weak __typeof(&*self)weakSelf = self;
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         CLGeocoder* geocoder = [[CLGeocoder alloc] init];
-        [geocoder reverseGeocodeLocation:newLocation completionHandler:^(NSArray *placemarks, NSError *error) {
+        [geocoder reverseGeocodeLocation:weakSelf.o_newLocation completionHandler:^(NSArray *placemarks, NSError *error) {
             if (placemarks && placemarks.count>0) {
                 
                 CLPlacemark *placemark = [placemarks objectAtIndex:0];

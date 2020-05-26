@@ -13,9 +13,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [[NSDate date] z_dayFromWeekday];
+    [[NSDate date] z_week];
 
-    [AFHttpClient setServerHost:@"http://licoming.com"];
+    [AFHttpClient setServerHost:@"http://apijson.cn"];
     [AFHttpClient setServerTempPath:nil];
     
     BOOL isCN = [ZLanguage isCN];
@@ -23,7 +23,7 @@
     ZLStr_K(@"234");
     ZLStr_K(@"");
     
-    [[AFHttpClient sharedClient] getUrl:@"http://licoming.com/default.aspx?id=100" param:nil success:^(id json) {
+    [[AFHttpClient sharedClient] getUrl:@"https://api.apiopen.top/getAllUrl" param:nil success:^(id json) {
         
         ZLLog(@"234234%@",@"haha");
         

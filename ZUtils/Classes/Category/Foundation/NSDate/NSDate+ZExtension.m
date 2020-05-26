@@ -9,27 +9,27 @@
 
 @implementation NSDate (ZExtension)
 
-- (NSUInteger)z_day {
+- (NSUInteger)zz_day {
     return [NSDate z_day:self];
 }
 
-- (NSUInteger)z_month {
+- (NSUInteger)zz_month {
     return [NSDate z_month:self];
 }
 
-- (NSUInteger)z_year {
+- (NSUInteger)zz_year {
     return [NSDate z_year:self];
 }
 
-- (NSUInteger)z_hour {
+- (NSUInteger)zz_hour {
     return [NSDate z_hour:self];
 }
 
-- (NSUInteger)z_minute {
+- (NSUInteger)zz_minute {
     return [NSDate z_minute:self];
 }
 
-- (NSUInteger)z_second {
+- (NSUInteger)zz_second {
     return [NSDate z_second:self];
 }
 
@@ -124,7 +124,7 @@
 }
 
 + (BOOL)z_isLeapYear:(NSDate *)date {
-    NSUInteger year = [date z_year];
+    NSUInteger year = [date zz_year];
     if ((year % 4  == 0 && year % 100 != 0) || year % 400 == 0) {
         return YES;
     }
@@ -136,7 +136,7 @@
 }
 
 + (NSString *)z_formatYMD:(NSDate *)date {
-    return [NSString stringWithFormat:@"%zd-%zd-%zd",[date z_year],[date z_month], [date z_day]];
+    return [NSString stringWithFormat:@"%zd-%zd-%zd",[date zz_year],[date zz_month], [date zz_day]];
 }
 
 - (NSUInteger)z_weeksOfMonth {
@@ -153,11 +153,11 @@
 
 + (NSUInteger)z_weekOfYear:(NSDate *)date {
     NSUInteger i;
-    NSUInteger year = [date z_year];
+    NSUInteger year = [date zz_year];
     
     NSDate *lastdate = [date z_lastdayOfMonth];
     
-    for (i = 1;[[lastdate z_dateAfterDay:-7 * i] z_year] == year; i++) {
+    for (i = 1;[[lastdate z_dateAfterDay:-7 * i] zz_year] == year; i++) {
         
     }
     
@@ -196,7 +196,7 @@
 }
 
 + (NSDate *)z_begindayOfMonth:(NSDate *)date {
-    return [self z_dateAfterDate:date day:-[date z_day] + 1];
+    return [self z_dateAfterDate:date day:-[date zz_day] + 1];
 }
 
 - (NSDate *)z_lastdayOfMonth {
@@ -230,7 +230,7 @@
     return [components day];
 }
 
-- (NSInteger)z_weekday {
+- (NSInteger)zz_weekday {
     return [NSDate z_weekday:self];
 }
 
@@ -248,7 +248,7 @@
 }
 
 + (NSString *)z_dayFromWeekday:(NSDate *)date {
-    switch([date z_weekday]) {
+    switch([date zz_weekday]) {
         case 1:
             return @"星期天";
             break;
@@ -291,11 +291,11 @@
             && [components1 day] == [components2 day]);
 }
 
-- (BOOL)z_isToday {
+- (BOOL)zz_isToday {
     return [self z_isSameDay:[NSDate date]];
 }
 
-- (NSDate *)z_dateByAddingDays:(NSUInteger)days {
+- (NSDate *)zz_dateByAddingDays:(NSUInteger)days {
     NSDateComponents *c = [[NSDateComponents alloc] init];
     c.day = days;
     return [[NSCalendar currentCalendar] dateByAddingComponents:c toDate:self options:0];
@@ -405,7 +405,7 @@
 }
 
 + (NSUInteger)z_daysInMonth:(NSDate *)date {
-    return [self z_daysInMonth:date month:[date z_month]];
+    return [self z_daysInMonth:date month:[date zz_month]];
 }
 
 - (NSString *)z_timeInfo {
@@ -423,7 +423,7 @@
     NSTimeInterval time = -[date timeIntervalSinceDate:curDate];
     
 //    int month = (int)([curDate z_month] - [date z_month]);
-    int year = (int)([curDate z_year] - [date z_year]);
+    int year = (int)([curDate zz_year] - [date zz_year]);
 //    int day = (int)([curDate z_day] - [date z_day]);
     
     NSTimeInterval retTime = 1.0;

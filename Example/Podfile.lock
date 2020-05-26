@@ -1,190 +1,190 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - MBProgressHUD (1.1.0)
-  - ZWXUtils (1.1.0):
+  - MBProgressHUD (1.2.0)
+  - ZWXUtils (1.1.1):
     - AFNetworking
     - MBProgressHUD
-    - ZWXUtils/Category (= 1.1.0)
-    - ZWXUtils/CustomView (= 1.1.0)
-    - ZWXUtils/Utils (= 1.1.0)
-  - ZWXUtils/Category (1.1.0):
+    - ZWXUtils/Category (= 1.1.1)
+    - ZWXUtils/CustomView (= 1.1.1)
+    - ZWXUtils/Utils (= 1.1.1)
+  - ZWXUtils/Category (1.1.1):
     - AFNetworking
     - MBProgressHUD
-    - ZWXUtils/Category/Foundation (= 1.1.0)
-    - ZWXUtils/Category/UIKit (= 1.1.0)
-  - ZWXUtils/Category/Foundation (1.1.0):
+    - ZWXUtils/Category/Foundation (= 1.1.1)
+    - ZWXUtils/Category/UIKit (= 1.1.1)
+  - ZWXUtils/Category/Foundation (1.1.1):
     - AFNetworking
     - MBProgressHUD
-    - ZWXUtils/Category/Foundation/NSArray (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSData (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSDate (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSDictionary (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSFileManager (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSNumber (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSObject (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSRunLoop (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSString (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSTimer (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSUrl (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSURLRequest (= 1.1.0)
-    - ZWXUtils/Category/Foundation/NSUserDefault (= 1.1.0)
-  - ZWXUtils/Category/Foundation/NSArray (1.1.0):
+    - ZWXUtils/Category/Foundation/NSArray (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSData (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSDate (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSDictionary (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSFileManager (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSNumber (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSObject (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSRunLoop (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSString (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSTimer (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSUrl (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSURLRequest (= 1.1.1)
+    - ZWXUtils/Category/Foundation/NSUserDefault (= 1.1.1)
+  - ZWXUtils/Category/Foundation/NSArray (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSData (1.1.0):
+  - ZWXUtils/Category/Foundation/NSData (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSDate (1.1.0):
+  - ZWXUtils/Category/Foundation/NSDate (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSDictionary (1.1.0):
+  - ZWXUtils/Category/Foundation/NSDictionary (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSFileManager (1.1.0):
+  - ZWXUtils/Category/Foundation/NSFileManager (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSNumber (1.1.0):
+  - ZWXUtils/Category/Foundation/NSNumber (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSObject (1.1.0):
+  - ZWXUtils/Category/Foundation/NSObject (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSRunLoop (1.1.0):
+  - ZWXUtils/Category/Foundation/NSRunLoop (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSString (1.1.0):
+  - ZWXUtils/Category/Foundation/NSString (1.1.1):
     - AFNetworking
     - MBProgressHUD
     - ZWXUtils/Category/Foundation/NSData
-  - ZWXUtils/Category/Foundation/NSTimer (1.1.0):
+  - ZWXUtils/Category/Foundation/NSTimer (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSUrl (1.1.0):
+  - ZWXUtils/Category/Foundation/NSUrl (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSURLRequest (1.1.0):
+  - ZWXUtils/Category/Foundation/NSURLRequest (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/Foundation/NSUserDefault (1.1.0):
+  - ZWXUtils/Category/Foundation/NSUserDefault (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit (1.1.0):
+  - ZWXUtils/Category/UIKit (1.1.1):
     - AFNetworking
     - MBProgressHUD
-    - ZWXUtils/Category/UIKit/UIAlertController (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIApplication (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIBarButtonItem (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIButton (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIColor (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIControl (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIDevice (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIImage (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIImageView (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UILabel (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UINavigationBar (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UINavigationController (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UINavigationItem (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIResponder (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIScreen (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIScrollow (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UISearchBar (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UITextField (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UITextView (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIView (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIViewController (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIWebView (= 1.1.0)
-    - ZWXUtils/Category/UIKit/UIWindow (= 1.1.0)
-  - ZWXUtils/Category/UIKit/UIAlertController (1.1.0):
+    - ZWXUtils/Category/UIKit/UIAlertController (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIApplication (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIBarButtonItem (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIButton (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIColor (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIControl (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIDevice (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIImage (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIImageView (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UILabel (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UINavigationBar (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UINavigationController (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UINavigationItem (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIResponder (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIScreen (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIScrollow (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UISearchBar (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UITextField (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UITextView (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIView (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIViewController (= 1.1.1)
+    - ZWXUtils/Category/UIKit/UIWindow (= 1.1.1)
+    - ZWXUtils/Category/UIKit/WKWebView (= 1.1.1)
+  - ZWXUtils/Category/UIKit/UIAlertController (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIApplication (1.1.0):
+  - ZWXUtils/Category/UIKit/UIApplication (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIBarButtonItem (1.1.0):
+  - ZWXUtils/Category/UIKit/UIBarButtonItem (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIButton (1.1.0):
+  - ZWXUtils/Category/UIKit/UIButton (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIColor (1.1.0):
+  - ZWXUtils/Category/UIKit/UIColor (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIControl (1.1.0):
+  - ZWXUtils/Category/UIKit/UIControl (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIDevice (1.1.0):
+  - ZWXUtils/Category/UIKit/UIDevice (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIImage (1.1.0):
+  - ZWXUtils/Category/UIKit/UIImage (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIImageView (1.1.0):
+  - ZWXUtils/Category/UIKit/UIImageView (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UILabel (1.1.0):
+  - ZWXUtils/Category/UIKit/UILabel (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UINavigationBar (1.1.0):
+  - ZWXUtils/Category/UIKit/UINavigationBar (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UINavigationController (1.1.0):
+  - ZWXUtils/Category/UIKit/UINavigationController (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UINavigationItem (1.1.0):
+  - ZWXUtils/Category/UIKit/UINavigationItem (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIResponder (1.1.0):
+  - ZWXUtils/Category/UIKit/UIResponder (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIScreen (1.1.0):
+  - ZWXUtils/Category/UIKit/UIScreen (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIScrollow (1.1.0):
+  - ZWXUtils/Category/UIKit/UIScrollow (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UISearchBar (1.1.0):
+  - ZWXUtils/Category/UIKit/UISearchBar (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UITextField (1.1.0):
+  - ZWXUtils/Category/UIKit/UITextField (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UITextView (1.1.0):
+  - ZWXUtils/Category/UIKit/UITextView (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIView (1.1.0):
+  - ZWXUtils/Category/UIKit/UIView (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIViewController (1.1.0):
+  - ZWXUtils/Category/UIKit/UIViewController (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIWebView (1.1.0):
+  - ZWXUtils/Category/UIKit/UIWindow (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Category/UIKit/UIWindow (1.1.0):
+  - ZWXUtils/Category/UIKit/WKWebView (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/CustomView (1.1.0):
+  - ZWXUtils/CustomView (1.1.1):
     - AFNetworking
     - MBProgressHUD
-  - ZWXUtils/Utils (1.1.0):
+  - ZWXUtils/Utils (1.1.1):
     - AFNetworking
     - MBProgressHUD
-    - ZWXUtils/Utils/HttpClient (= 1.1.0)
-  - ZWXUtils/Utils/HttpClient (1.1.0):
+    - ZWXUtils/Utils/HttpClient (= 1.1.1)
+  - ZWXUtils/Utils/HttpClient (1.1.1):
     - AFNetworking
     - MBProgressHUD
     - ZWXUtils/CustomView
@@ -202,10 +202,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  ZWXUtils: 142f4560ebffe59aca2bd1357f081ff2f68ef014
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ZWXUtils: de0d032b2443644eeae27843bba3bc93ef6ac271
 
-PODFILE CHECKSUM: f7ea3ded52ff4fe9cbb85ca27d6e1cc252d8f48a
+PODFILE CHECKSUM: 30593157d0ce3ff1a84e7f2da93dfb37b7d66e45
 
 COCOAPODS: 1.7.5

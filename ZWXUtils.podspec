@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZWXUtils'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = '一个工具类 ZWXUtils.'
 
 # This description is used to generate tags and improve search results.
@@ -230,9 +230,9 @@ sss.subspec 'UIViewController' do |s4|
 s4.source_files = 'ZUtils/Classes/Category/UIKit/UIViewController/**/*'
 s4.public_header_files = 'ZUtils/Classes/Category/UIKit/UIViewController/**/*.h'
 end
-sss.subspec 'UIWebView' do |s4|
-s4.source_files = 'ZUtils/Classes/Category/UIKit/UIWebView/**/*'
-s4.public_header_files = 'ZUtils/Classes/Category/UIKit/UIWebView/**/*.h'
+sss.subspec 'WKWebView' do |s4|
+s4.source_files = 'ZUtils/Classes/Category/UIKit/WKWebView/**/*'
+s4.public_header_files = 'ZUtils/Classes/Category/UIKit/WKWebView/**/*.h'
 end
 sss.subspec 'UIWindow' do |s4|
 s4.source_files = 'ZUtils/Classes/Category/UIKit/UIWindow/**/*'

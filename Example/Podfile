@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'ZUtils_Example' do
+target 'ZWXUtils_Example' do
   pod 'ZWXUtils', :path => '../'
 
-  target 'ZUtils_Tests' do
+  target 'ZWXUtils_Tests' do
     inherit! :search_paths
 
     
