@@ -15,3 +15,12 @@
  */
 -(NSString *)z_JSONString;
 @end
+
+@interface NSArray (ZJSONArrayString)
+/**
+ *  @brief NSArray转换成JSON字符串
+ *
+ *  @return  JSON字符串
+ */
+-(NSString *)z_JSONString;
+@end

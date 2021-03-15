@@ -26,6 +26,8 @@
 //
 //    self.o_testLabel.attributedText=attrStr;
     
+    BOOL isfull = IS_FULL_SCREEN;
+    
     
     [self.o_testLabel z_setStrikeColor:[UIColor grayColor]];
     
@@ -39,6 +41,15 @@
     
         [ZProgressHUD makeToast:@"111111"];
     }];
+    
+    
+    [[AFHttpClient sharedClient] getUrl:@"https://api.apiopen.top/getAllUrl" param:nil header:nil success:^(id json) {
+        
+        ZLLog(@"234234%@",@"haha");
+        
+    } failure:^(NSError *error) {
+        
+    } processView:self.view];
     
 }
 

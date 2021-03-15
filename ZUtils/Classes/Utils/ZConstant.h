@@ -65,8 +65,22 @@
 #define IS_IPHONE_X_XS  (SCREEN_WIDTH == 375.f && SCREEN_HEIGHT == 812.f ? YES : NO)
 //iPhoneXR / iPhoneXSMax
 #define IS_IPHONE_XR_XSMax (SCREEN_WIDTH == 414.f && SCREEN_HEIGHT == 896.f ? YES : NO)
-//异性全面屏
-#define IS_FULL_SCREEN (IS_IPHONE_X_XS || IS_IPHONE_XR_XSMax)
+
+static inline BOOL isIPhoneXSeries() {
+    BOOL iPhoneXSeries = NO;
+    if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
+        return iPhoneXSeries;
+    }
+    if (@available(iOS 11.0, *)) {
+        UIWindow *mainWindow = [[[UIApplication sharedApplication] delegate] window];
+        if(mainWindow.safeAreaInsets.bottom > 0.0) {
+            iPhoneXSeries = YES;
+        }
+     }
+    return iPhoneXSeries;
+}
+//异形全面屏
+#define IS_FULL_SCREEN (isIPhoneXSeries())
 
 /********************* 系统控件宽高 *********************/
 #define STATUS_HEIGHT (IS_FULL_SCREEN ? 44.f : 20.f)

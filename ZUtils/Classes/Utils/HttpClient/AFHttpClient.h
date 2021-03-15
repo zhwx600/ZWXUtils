@@ -23,10 +23,17 @@ typedef void(^AFFailBlock)(NSError *error);
 +(void) setServerHost:(NSString*)host;//域名/ip地址
 +(void) setServerTempPath:(NSString*)tPath;//接口地址 的通用路径。可不设置
 
+
+//处理cookie
++(void) saveCookieForUrl:(NSString*)url;
++(NSString*) cookieForUrl:(NSString*)url;
+
+
 //静态全局对象
 + (instancetype)sharedClient;
 
 
+#pragma mark- 直接返回字典对象
 #pragma mark- 直接返回字典对象
 // URLString 支持不带baseURL、temppath 和 支持全路径url
 -(void) getUrl:(NSString*)URLString
@@ -37,6 +44,21 @@ typedef void(^AFFailBlock)(NSError *error);
 
 -(void) postUrl:(NSString*)URLString
           param:(NSDictionary*)param
+        success:(AFSuccBlock)success
+        failure:(AFFailBlock)failure
+    processView:(UIView*)processView;
+
+
+-(void) getUrl:(NSString*)URLString
+         param:(NSDictionary*)param
+        header:(NSDictionary*)headerDict
+       success:(AFSuccBlock)success
+       failure:(AFFailBlock)failure
+   processView:(UIView*)processView;
+
+-(void) postUrl:(NSString*)URLString
+          param:(NSDictionary*)param
+         header:(NSDictionary*)headerDict
         success:(AFSuccBlock)success
         failure:(AFFailBlock)failure
     processView:(UIView*)processView;
