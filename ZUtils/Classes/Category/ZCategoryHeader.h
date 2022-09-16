@@ -78,6 +78,7 @@
 #import "UIControl+ZSound.h"
 
 #import "UIDevice+ZHardware.h"
+#import "UIDevice+StateHeight.h"
 
 #import "UIImage+ZAlpha.h"
 #import "UIImage+ZAnimateGIF.h"
