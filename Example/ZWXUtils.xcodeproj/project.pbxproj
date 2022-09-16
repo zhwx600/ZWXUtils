@@ -24,6 +24,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8750CBC7233204E300B4AA3D /* ZWXUtils.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */; };
+		87E3CA3528D45C1F00591BB7 /* ZViewOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E3CA3428D45C1F00591BB7 /* ZViewOneController.m */; };
+		87E3CA3828D45C2F00591BB7 /* ZViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E3CA3728D45C2F00591BB7 /* ZViewTwoController.m */; };
 		A5EF6ED6CDCF17005CB1F5B6 /* Pods_ZWXUtils_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80DDB2A5455B0AD4CE1A0609 /* Pods_ZWXUtils_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,10 @@
 		80DDB2A5455B0AD4CE1A0609 /* Pods_ZWXUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWXUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8750CBC6233204E300B4AA3D /* ZWXUtils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ZWXUtils.podspec; path = ../ZWXUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87E3CA3328D45C1F00591BB7 /* ZViewOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewOneController.h; sourceTree = "<group>"; };
+		87E3CA3428D45C1F00591BB7 /* ZViewOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewOneController.m; sourceTree = "<group>"; };
+		87E3CA3628D45C2F00591BB7 /* ZViewTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZViewTwoController.h; sourceTree = "<group>"; };
+		87E3CA3728D45C2F00591BB7 /* ZViewTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZViewTwoController.m; sourceTree = "<group>"; };
 		9ABBD9C9B4E6897C9ECA6B94 /* Pods-ZWXUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Tests/Pods-ZWXUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A083BC8EC346747F71E4B88B /* Pods-ZWXUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXUtils_Tests/Pods-ZWXUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B45DA2CEC4ADA63E8C2B18C2 /* Pods-ZUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZUtils_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZUtils_Tests/Pods-ZUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +148,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZViewController.h */,
 				6003F5A6195388D20070C39A /* ZViewController.m */,
+				87E3CA3328D45C1F00591BB7 /* ZViewOneController.h */,
+				87E3CA3428D45C1F00591BB7 /* ZViewOneController.m */,
+				87E3CA3628D45C2F00591BB7 /* ZViewTwoController.h */,
+				87E3CA3728D45C2F00591BB7 /* ZViewTwoController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -375,7 +385,9 @@
 			files = (
 				6003F59E195388D20070C39A /* ZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZViewController.m in Sources */,
+				87E3CA3528D45C1F00591BB7 /* ZViewOneController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				87E3CA3828D45C2F00591BB7 /* ZViewTwoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

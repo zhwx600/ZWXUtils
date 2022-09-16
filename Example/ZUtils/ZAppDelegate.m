@@ -22,6 +22,20 @@
     ZLStr_KT(@"rwer", @"wer");
     ZLStr_K(@"234");
     ZLStr_K(@"");
+
+    
+//#define STATUS_HEIGHT (IS_FULL_SCREEN ? [UIDevice z_statusBarHeight] : 20.f)
+//#define NAVBAR_HEIGHT 44.f
+//#define TABBAR_HEIGHT ([UIDevice z_tabBarFullHeight])
+//#define TABBAR_SafeBottomMargin ([UIDevice z_safeDistanceBottom])
+//#define STATUS_AND_NAVBAR_HEIGHT ([UIDevice z_navigationFullHeight])
+    
+    
+    ZLLog(@"--%f-----*1",STATUS_HEIGHT);
+    ZLLog(@"--%f-----*2",TABBAR_HEIGHT);
+    ZLLog(@"--%f-----*3",TABBAR_SafeBottomMargin);
+    ZLLog(@"--%f-----*4",STATUS_AND_NAVBAR_HEIGHT);
+    
     
     [[AFHttpClient sharedClient] getUrl:@"https://api.apiopen.top/getAllUrl" param:nil success:^(id json) {
         

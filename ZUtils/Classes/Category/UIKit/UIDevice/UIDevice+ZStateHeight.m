@@ -5,9 +5,9 @@
 //  Created by zwx on 2022/9/16.
 //
 
-#import "UIDevice+StateHeight.h"
+#import "UIDevice+ZStateHeight.h"
 
-@implementation UIDevice (StateHeight)
+@implementation UIDevice (ZStateHeight)
 
  
 // 顶部安全区高度

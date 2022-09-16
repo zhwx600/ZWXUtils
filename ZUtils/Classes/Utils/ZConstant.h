@@ -56,16 +56,7 @@
 #define SCREEN_SCALE ([UIScreen mainScreen].scale)
 
 
-/********************* 手机屏幕尺寸判断 *********************/
-#define IS_IPHONE4  ( fabsl( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )480 ) < DBL_EPSILON )
-#define IS_IPHONE5  ( fabsl( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
-#define IS_IPHONE6  ( fabsl( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )667 ) < DBL_EPSILON )
-#define IS_IPHONE6P  ( fabsl( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )736 ) < DBL_EPSILON )
-//iPhoneX / iPhoneXS
-#define IS_IPHONE_X_XS  (SCREEN_WIDTH == 375.f && SCREEN_HEIGHT == 812.f ? YES : NO)
-//iPhoneXR / iPhoneXSMax
-#define IS_IPHONE_XR_XSMax (SCREEN_WIDTH == 414.f && SCREEN_HEIGHT == 896.f ? YES : NO)
-
+//异形全面屏 判断
 static inline BOOL isIPhoneXSeries() {
     BOOL iPhoneXSeries = NO;
     if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
@@ -83,11 +74,11 @@ static inline BOOL isIPhoneXSeries() {
 #define IS_FULL_SCREEN (isIPhoneXSeries())
 
 /********************* 系统控件宽高 *********************/
-#define STATUS_HEIGHT (IS_FULL_SCREEN ? 44.f : 20.f)
+#define STATUS_HEIGHT (IS_FULL_SCREEN ? [UIDevice z_statusBarHeight] : 20.f)
 #define NAVBAR_HEIGHT 44.f
-#define TABBAR_HEIGHT (IS_FULL_SCREEN ? (49.f+34.f) : 49.f)
-#define TABBAR_SafeBottomMargin (IS_FULL_SCREEN ? 34.f : 0.f)
-#define STATUS_AND_NAVBAR_HEIGHT (IS_FULL_SCREEN ? 88.f : 64.f)
+#define TABBAR_HEIGHT ([UIDevice z_tabBarFullHeight])
+#define TABBAR_SafeBottomMargin ([UIDevice z_safeDistanceBottom])
+#define STATUS_AND_NAVBAR_HEIGHT ([UIDevice z_navigationFullHeight])
 
 //屏幕相对于 375 的比例
 #define SCREEN_S_WIDTH 375.0f //(IPHONE7)

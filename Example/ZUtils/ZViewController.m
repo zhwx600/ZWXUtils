@@ -9,6 +9,8 @@
 #import "ZViewController.h"
 #import "UILabel+ZStrike.h"
 
+#import "ZViewOneController.h"
+
 
 @interface ZViewController ()
 
@@ -37,9 +39,12 @@
     
     [self.view addSubview:tView];
 
+    WS(weakSelf)
     [tView z_addTapActionWithBlock:^(UIGestureRecognizer *gestureRecoginzer) {
     
         [ZProgressHUD makeToast:@"111111"];
+        
+        [weakSelf showOneVC];
     }];
     
     
@@ -52,6 +57,17 @@
     } processView:self.view];
     
 }
+
+
+-(void) showOneVC
+{
+    ZViewOneController* onevc = [[ZViewOneController alloc] init];
+    
+    UINavigationController* navvc = [[UINavigationController alloc] initWithRootViewController:onevc];
+    navvc.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self presentViewController:navvc animated:YES completion:nil];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

@@ -164,8 +164,8 @@
 		85A7088EEF65E6737DC067AAAE5E5264 /* UIImage+ZAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D90C6901A7BD2612C7AA381C9881A6 /* UIImage+ZAlpha.m */; };
 		85B11A617E6735403764CA99D54778B8 /* UIResponder+ZFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 85188E723FC47A3109ACF04D40A8CB56 /* UIResponder+ZFirstResponder.m */; };
 		867C272DD1D71918FCB3968A70A50774 /* UIButton+ZTouchAreaInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = D65FC8D05DD9230A89A20A7F87673EE3 /* UIButton+ZTouchAreaInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		876C50A228D44933005667E4 /* UIDevice+StateHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 876C50A028D44933005667E4 /* UIDevice+StateHeight.h */; };
-		876C50A328D44933005667E4 /* UIDevice+StateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 876C50A128D44933005667E4 /* UIDevice+StateHeight.m */; };
+		87E3CA3128D451B500591BB7 /* UIDevice+ZStateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E3CA2F28D451B500591BB7 /* UIDevice+ZStateHeight.m */; };
+		87E3CA3228D451B500591BB7 /* UIDevice+ZStateHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E3CA3028D451B500591BB7 /* UIDevice+ZStateHeight.h */; };
 		880B086282CAD872AA120DF3310A4732 /* UINavigationController+ZTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0B71168186FEFC27BBBB0086549269 /* UINavigationController+ZTransitions.m */; };
 		882E22663BB75DA083FDFA6A8C343085 /* ZWXMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 435456E51D38ED9B399A523DB5E44353 /* ZWXMenuBar.m */; };
 		8878A4BC8488B4AC730B59B64B84C2ED /* UIView+ZBlockGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = E355FA75E9DA8014F8EA298C83732E10 /* UIView+ZBlockGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -517,8 +517,8 @@
 		8456EE3CFD74DFE6106CE3EAA5F38239 /* UIView+ZFind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZFind.h"; path = "ZUtils/Classes/Category/UIKit/UIView/UIView+ZFind.h"; sourceTree = "<group>"; };
 		85188E723FC47A3109ACF04D40A8CB56 /* UIResponder+ZFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+ZFirstResponder.m"; path = "ZUtils/Classes/Category/UIKit/UIResponder/UIResponder+ZFirstResponder.m"; sourceTree = "<group>"; };
 		869ABCF98854ABD0B149BABD863D9F64 /* UIViewController+ZStoreKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ZStoreKit.h"; path = "ZUtils/Classes/Category/UIKit/UIViewController/UIViewController+ZStoreKit.h"; sourceTree = "<group>"; };
-		876C50A028D44933005667E4 /* UIDevice+StateHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+StateHeight.h"; sourceTree = "<group>"; };
-		876C50A128D44933005667E4 /* UIDevice+StateHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+StateHeight.m"; sourceTree = "<group>"; };
+		87E3CA2F28D451B500591BB7 /* UIDevice+ZStateHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+ZStateHeight.m"; path = "ZUtils/Classes/Category/UIKit/UIDevice/UIDevice+ZStateHeight.m"; sourceTree = "<group>"; };
+		87E3CA3028D451B500591BB7 /* UIDevice+ZStateHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+ZStateHeight.h"; path = "ZUtils/Classes/Category/UIKit/UIDevice/UIDevice+ZStateHeight.h"; sourceTree = "<group>"; };
 		88DDCC9B11A235E5B438CA04327B2567 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		89172C147DBDBE8D9E60A3063C8896A5 /* NSNumber+ZUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ZUtils.h"; path = "ZUtils/Classes/Category/Foundation/NSNumber/NSNumber+ZUtils.h"; sourceTree = "<group>"; };
 		89DB93D91B4CA5B50E2A624FD860B5FF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
@@ -1092,10 +1092,10 @@
 		9442152A602A0983453322056756568F /* UIDevice */ = {
 			isa = PBXGroup;
 			children = (
+				87E3CA3028D451B500591BB7 /* UIDevice+ZStateHeight.h */,
+				87E3CA2F28D451B500591BB7 /* UIDevice+ZStateHeight.m */,
 				EA2BC895382C3529D540015FF8FF79D7 /* UIDevice+ZHardware.h */,
 				7CFEC58B4195D22BE6F99C12A9C1FDC4 /* UIDevice+ZHardware.m */,
-				876C50A028D44933005667E4 /* UIDevice+StateHeight.h */,
-				876C50A128D44933005667E4 /* UIDevice+StateHeight.m */,
 			);
 			name = UIDevice;
 			sourceTree = "<group>";
@@ -1587,7 +1587,7 @@
 				D748A2995616187C85127676640ACBB4 /* AFHttpClient.h in Headers */,
 				10D4474E9481DA5C245C37531D2E0DF5 /* AFUploadFileManager.h in Headers */,
 				A9726A5F354414B72A90F5C1A73AEA5E /* NSArray+ZSafeAccess.h in Headers */,
-				876C50A228D44933005667E4 /* UIDevice+StateHeight.h in Headers */,
+				87E3CA3228D451B500591BB7 /* UIDevice+ZStateHeight.h in Headers */,
 				63D8C74239069CC68ED902D5C31CD7F9 /* NSData+ZBase64.h in Headers */,
 				A125425C07DD81402BC2D1B01A674B8A /* NSData+ZEncrypt.h in Headers */,
 				2201809B3BDB235606C238E32809105D /* NSData+ZGzip.h in Headers */,
@@ -1978,7 +1978,7 @@
 				F07D5D3CA6404164504FB475E7A2A7AB /* NSURL+ZParam.m in Sources */,
 				2F96E4118045A4EBA21CA6F839958000 /* NSUserDefaults+ZiCloudSync.m in Sources */,
 				AC7DA97D2ABFAA0E0F06E18810CFC2B5 /* UIAlertController+ZTitles.m in Sources */,
-				876C50A328D44933005667E4 /* UIDevice+StateHeight.m in Sources */,
+				87E3CA3128D451B500591BB7 /* UIDevice+ZStateHeight.m in Sources */,
 				B39D5690C4AF3E8B5E181BF89E75FAC8 /* UIApplication+ZNetworkActivityIndicator.m in Sources */,
 				1059177980A2A244A901CED3D0145575 /* UIApplication+ZVersion.m in Sources */,
 				F993774D2D25463A27AE4C657E15851C /* UIBarButtonItem+ZBadge.m in Sources */,

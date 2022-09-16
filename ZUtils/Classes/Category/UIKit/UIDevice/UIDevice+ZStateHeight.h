@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIDevice (StateHeight)
+@interface UIDevice (ZStateHeight)
 
 
 /** 顶部安全区高度 **/
@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (CGFloat)z_tabBarHeight;
  
 /** 底部导航栏高度（包括安全区） **/
++ (CGFloat)z_tabBarFullHeight;
 
 @end
 
