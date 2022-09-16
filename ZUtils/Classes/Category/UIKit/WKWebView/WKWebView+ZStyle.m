@@ -11,7 +11,7 @@
 /**
  *  @brief  是否显示阴影
  *
- *  @param b 是否显示阴影
+ *  @param hidden 是否显示阴影
  */
 - (void)z_shadowViewHidden:(BOOL)hidden{
     for (UIView *aView in [self subviews])
@@ -32,7 +32,7 @@
 /**
  *  @brief  是否显示水平滑动指示器
  *
- *  @param b 是否显示水平滑动指示器
+ *  @param hidden 是否显示水平滑动指示器
  */
 - (void)z_showsHorizontalScrollIndicator:(BOOL)hidden{
     for (UIView *aView in [self subviews])
@@ -46,7 +46,7 @@
 /**
  *  @brief  是否显示垂直滑动指示器
  *
- *  @param b 是否显示垂直滑动指示器
+ *  @param hidden 是否显示垂直滑动指示器
  */
 - (void)z_showsVerticalScrollIndicator:(BOOL)hidden{
     for (UIView *aView in [self subviews])

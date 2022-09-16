@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
 #   通用web页面控制器
 #   s.dependency 'AXWebViewController'
    s.dependency 'MBProgressHUD'
-   s.dependency 'AFNetworking'
+   s.dependency 'AFNetworking', '>= 4.0.1'
 
 #   推送界面展示 库
 #   s.dependency 'GLNotificationBar'

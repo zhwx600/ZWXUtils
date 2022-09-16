@@ -73,6 +73,7 @@
 #import "UIControl+ZBlock.h"
 #import "UIControl+ZSound.h"
 #import "UIDevice+ZHardware.h"
+#import "UIDevice+ZStateHeight.h"
 #import "UIImage+ZAlpha.h"
 #import "UIImage+ZAnimateGIF.h"
 #import "UIImage+ZBetterFace.h"
